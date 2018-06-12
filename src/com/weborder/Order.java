@@ -109,9 +109,11 @@ public static void main(String[] args) throws InterruptedException {
 			.getText();
 	System.out.println(actual);
 	if(expected.equals(actual))
-		System.out.println("Expected result matches the actual result.");
+		System.out.println("pass");
 	else
-		System.out.println("Expected result does not match the actual result.");
+		System.out.println("fail");
+	     System.out.println("Expected:\t"+  actual);
+	      System.out.println("Actual:\t"+ actual);
 		
 	}
 	
